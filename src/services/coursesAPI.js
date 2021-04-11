@@ -4,6 +4,15 @@ const coursesAPI = {
     getCourses: () => {
         return axiosClient.get("/QuanLyKhoaHoc/LayDanhMucKhoaHoc")
     },
+
+    getCoursesByCategory: (category) => {
+        const params = {
+            maDanhMuc: category,
+            maNhom: "GP01",
+        };
+        // return axiosClient.get(`/QuanLyKhoaHoc/LayDanhMucKhoaHoc?maDanhuc=${category}`);
+        return axiosClient.get("/QuanLyKhoaHoc/LayKhoaHocTheoDanhMuc",{param});
+    }
 };
 
 export default coursesAPI;
