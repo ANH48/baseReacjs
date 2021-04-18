@@ -10,8 +10,12 @@
     - action: chứa action của redux 
     - constants: chứ constants của project và type của redux
     - reducers: chứ reducers của redux 
+    - layout: chứa các component layout 
+    - auth: chứa các component và các hàm xử lí liên quan đến authentication 
 
     setup project : 
         lib: axios redux react-redux react-thunk react-router-dom reactstrap bootstrap 
+        npm i react-hook-form : validate
+        npm install @hookform/resolvers yup : rút gọn code 
 
     

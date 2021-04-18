@@ -10,8 +10,10 @@ const coursesAPI = {
             maDanhMuc: category,
             maNhom: "GP01",
         };
+
+        
         // return axiosClient.get(`/QuanLyKhoaHoc/LayDanhMucKhoaHoc?maDanhuc=${category}`);
-        return axiosClient.get("/QuanLyKhoaHoc/LayKhoaHocTheoDanhMuc",{param});
+        return axiosClient.get("/QuanLyKhoaHoc/LayKhoaHocTheoDanhMuc",{params});
     }
 };
 

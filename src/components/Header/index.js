@@ -7,9 +7,12 @@ export default function Header() {
         <div>
             <h1>Header </h1>
             <Link className="mr-2" to="/">Home</Link>
-            <Link className="mr-2" to="/courses/frontend">Courses</Link>
-            <Link className="mr-2" to="/course/bootccamp">Course Detail</Link>
+            <Link className="mr-2" to="/courses/FullStack">Courses</Link>
+            <Link className="mr-2" to="/course/BackEnd">Course Detail</Link>
             {/* <link to="/">Home</link> */}
         </div>
     )
 }
+
+
+
